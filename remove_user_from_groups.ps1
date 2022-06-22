@@ -1,4 +1,4 @@
-### Move user to deleted users container:
+﻿### Move user to deleted users container:
 get-aduser -identity $USERNAME | move-adobject -targetpath "OU=xxx,OU=yyy,DC=zzz,DC=zzz"
 
 
